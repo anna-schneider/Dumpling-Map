@@ -16,8 +16,8 @@ export default function MapDetail() {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: "mapbox://styles/bnan/ckg9o2hi702bc19kw4lsy82ip",
-      center: [lng, lat],
-      zoom: zoom,
+      center: [-73.935242, 40.730610],
+      zoom: 3,
     })
     
   })
